@@ -3,7 +3,7 @@ A NodeJs SDK for [The Fortune Cookie API](http://fortunecookieapi.herokuapp.com/
 
 # Usage
 
-`npm install fortune-cookies`
+# `npm install fortune-cookies`
 
 ```js
 randCookie = require('fortune-cookies')
