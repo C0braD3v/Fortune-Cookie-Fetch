@@ -6,10 +6,13 @@ A NodeJs SDK for [The Fortune Cookie API](http://fortunecookieapi.herokuapp.com/
 `npm install fortune-cookies`
 
 ```js
-randCookie = require('fortune-cookies')
-async function gimmieCookie() {
-console.log(await randCookie.fetchCookie())
-}
+const randCookie = require('fortune-cookies')
+
 gimmieCookie()
+
+async function gimmieCookie() {
+
+    console.log(await randCookie.fetchCookie())
+}
 
 ```
