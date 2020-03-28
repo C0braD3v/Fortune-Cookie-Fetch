@@ -16,3 +16,6 @@ async function gimmieCookie() {
 }
 
 ```
+
+# Methods
+`.fetchCookie() - Returns promise<FortuneCookieString>`
