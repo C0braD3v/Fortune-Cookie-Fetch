@@ -1,5 +1,5 @@
 # Fortune Cookie Fetch
-A NodeJs SDK for [The Fortune Cookie API](http://fortunecookieapi.herokuapp.com/) to allow users to get a random fortune cookie, without the hastle of writing out large arrays!
+A NodeJs API Wrapper for [The Fortune Cookie API](http://fortunecookieapi.herokuapp.com/) to allow users to get a random fortune cookie, without the hastle of writing out large arrays!
 
 # Usage
 
@@ -8,14 +8,8 @@ A NodeJs SDK for [The Fortune Cookie API](http://fortunecookieapi.herokuapp.com/
 ```js
 const randCookie = require('fortune-cookies')
 
-gimmieCookie()
-
-async function gimmieCookie() {
-
-    console.log(await randCookie.fetchCookie())
-}
+randCookie.fetchCookie()
+    .then((c) => {console.log(c)})
+    .catch((e) => {console.error('An error occured! ', e)})
 
 ```
-
-# Methods
-`.fetchCookie() - Returns promise<FortuneCookieString>`
