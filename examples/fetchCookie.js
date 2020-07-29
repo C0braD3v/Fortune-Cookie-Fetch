@@ -1,6 +1,2 @@
-randCookie = require('fortune-cookies')
-async function gimmieCookie() {
-console.log(await randCookie.fetchCookie())
-}
-
-gimmieCookie()
+const cookieAPI = require('../src/main')
+cookieAPI.fetchCookie().then((cookie) => {console.log(cookie)})

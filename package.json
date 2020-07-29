@@ -1,19 +1,22 @@
 {
-  "name": "fortune-cookies",
-  "version": "0.0.2",
-  "description": "A NodeJs SDK for [The Fortune Cookie API](http://fortunecookieapi.herokuapp.com/) to allow users to get a random fortune cookie, without the hastle of writing out large arrays!",
+  "name": "@hpaulson/fortune-cookies",
+  "version": "1.0",
+  "description": "An API Wrapper for [The Fortune Cookie API](http://fortunecookieapi.herokuapp.com/) to allow users to get a random fortune cookie, without the hastle of writing out large arrays!",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/C0braD3v/Fortune-Cookie-Fetch.git"
-  },
-  "author": "C0braD3v",
+  "repository": "git+https://github.com/HPaulson/Fortune-Cookies.git",
+  "author": "HPaulson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/C0braD3v/Fortune-Cookie-Fetch/issues"
+    "url": "https://github.com/HPaulson/Fortune-Cookies/issues"
   },
-  "homepage": "https://github.com/C0braD3v/Fortune-Cookie-Fetch#readme"
+  "homepage": "https://github.com/HPaulson/Fortune-Cookies#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "got": "^11.5.1"
+  }
 }
