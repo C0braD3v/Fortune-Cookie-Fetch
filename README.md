@@ -3,7 +3,7 @@ A NodeJs API Wrapper for [The Fortune Cookie API](http://fortunecookieapi.heroku
 
 # Usage
 
-`npm install fortune-cookies`
+`npm install @hpaulson/fortune-cookies --registry=https://npm.pkg.github.com/hpaulson`
 
 ```js
 const randCookie = require('fortune-cookies')
