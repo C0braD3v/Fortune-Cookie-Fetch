@@ -1,6 +1,6 @@
 {
   "name": "@hpaulson/fortune-cookies",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "An API Wrapper for [The Fortune Cookie API](http://fortunecookieapi.herokuapp.com/) to allow users to get a random fortune cookie, without the hastle of writing out large arrays!",
   "main": "main.js",
   "scripts": {
